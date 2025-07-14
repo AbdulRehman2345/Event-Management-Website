@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Management Website</title>
+    <link rel="stylesheet"
+    href=https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css>
+    <link rel="stylesheet" href="/other_page_css/Contactus.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "7fVfC7jcEV-bClMRw",
+      });
+   })();
+</script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #121212;">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">
+          <div class="logo">Vel-Vet Vows</div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/service.html">Services & Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/feedback.html">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/booking_form.html">Booking Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Navbar -->
+    <!---ABOUT HEADING AND BACKGROUND PIC START-->
+    <div class="bg-dark text-white" style="margin-top: 73px">
+      <img
+        style="height: 150px; width: 100%; object-fit: cover; filter: blur(6px)"
+        class="rounded-0"
+        src="/Pictures/pexels-philpembani-2099021.jpg"
+        alt="Card image"
+      />
+      <div class="card-img-overlay">
+        <h2
+          style="color: white; text-align: center; margin-top: 140px"
+          class="card-title"
+        >
+          <b>Contact Us</b>
+        </h2>
+      </div>
+    </div>
+    <!---ABOUT HEADING AND BACKGROUND PIC END-->
+    <div class="contact_us_6">
+      <div class="responsive-container-block container">
+        <form class="form-box">
+          <div class="container-block form-wrapper">
+            <div class="mob-text">
+              <p class="text-blk contactus-head">Get in Touch</p>
+              <p class="text-blk contactus-subhead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis
+                diam lectus sapien.
+              </p>
+            </div>
+            <div class="responsive-container-block" id="i2cbk">
+              <div
+                class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12"
+                id="i10mt-3"
+              >
+                <p id="a" class="text-blk input-title">NAME</p>
+                <input
+                  class="input"
+                  id="name123"
+                  name="FirstName"
+                  placeholder="Please enter first name..."
+                  required
+                />
+              </div>
+              <div
+                class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12"
+                id="ip1yp"
+              >
+                <p class="text-blk input-title">EMAIL</p>
+                <input
+                  class="input"
+                  id="email123"
+                  name="Email"
+                  placeholder="Please enter email..."
+                  required
+                />
+              </div>
+              <div
+                class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12"
+                id="i634i-3"
+              >
+                <p class="text-blk input-title">WHAT DO YOU HAVE IN MIND ?</p>
+                <textarea
+                  class="textinput"
+                  id="detail123"
+                  placeholder="Please enter query..."
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <button
+              onclick="myFunction(event)"
+              style="background-color: black; margin-top: -30px"
+              class="submit-btn"
+              id="w-c-s-bgc_p-1-dm-id-2"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+        <div
+          class="responsive-cell-block wk-desk-7 wk-ipadp-12 wk-tab-12 wk-mobile-12"
+          id="i772w"
+        >
+          <div class="map-part">
+            <h2
+              style="color: black"
+              class="text-blk map-contactus-head"
+              id="w-c-s-fc_p-1-dm-id"
+            >
+              <b>Reach us at</b>
+            </h2>
+            <p class="text-blk map-contactus-subhead"></p>
+            <p style="color: gray">
+              <i style="color: black" class="fas fa-envelope mr-3"></i> &nbsp;
+              VelVetVows@gmail.com
+            </p>
+            <p style="color: gray">
+              <i style="color: black" class="fas fa-phone mr-3"></i> &nbsp; + 01
+              234 567 88
+            </p>
+            <p style="color: gray">
+              <i style="color: black" class="fas fa-print mr-3"></i> &nbsp; + 09
+              876 543 21
+            </p>
+
+            <div class="social-media-links mob">
+              <a
+                class="social-icon-link"
+                href="https://twitter.com/"
+                target="_blank"
+                id="ix94i-2-2"
+              >
+                <i style="color: black" class="fa-brands fa-twitter"></i>
+              </a>
+              <a
+                class="social-icon-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                id="itixd"
+              >
+                <i style="color: black" class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                class="social-icon-link"
+                href="https://www.google.com/"
+                target="_blank"
+                id="izxvt"
+              >
+                <i style="color: black" class="fa-brands fa-google"></i>
+              </a>
+              <a
+                class="social-icon-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                id="izldf-2-2"
+              >
+                <i style="color: black" class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="map-box">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe
+                  ><a href="https://2yu.co">2yu</a><br /><style>
+                    .mapouter {
+                      position: relative;
+                      text-align: right;
+                      height: 100%;
+                      width: 100%;
+                    }</style
+                  ><a href="https://embedgooglemap.2yu.co/"
+                    >html embed google map</a
+                  ><style>
+                    .gmap_canvas {
+                      overflow: hidden;
+                      background: none !important;
+                      height: 100%;
+                      width: 100%;
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER START  -->
+    <div class="footer-dark">
+      <footer>
+        <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          class="container"
+        >
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3 class="text-uppercase mb-4 font-weight-bold">Contact</h3>
+              <p>
+                <i class="fas fa-home mr-3"></i> &nbsp;
+                Pakistan,Karachi,District 17 ...
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> &nbsp; VelVetVows@gmail.com
+              </p>
+              <p><i class="fas fa-phone mr-3"></i> &nbsp; + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> &nbsp; + 09 876 543 21</p>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Useful Links</h3>
+              <ul>
+                <li><a href="/Pages/aboutus.html">About Us</a></li>
+                <li>
+                  <a href="/Pages/contact.html">Contact Us</a>
+                </li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy And Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Vel-Vet Vows</h3>
+              <p>
+                We believe in creating events that not only meet but exceed your
+                expectations, ensuring every moment is memorable and meaningful.
+                Our passion lies in transforming your vision into reality,
+                delivering experiences that leave a lasting impression on you
+                and your guests.With a focus on innovation and personalized
+                service, we turn your dreams into extraordinary celebrations.
+              </p>
+            </div>
+          </div>
+          <div class="col item social">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook-f"></i></a
+            ><a href="https://twitter.com/" target="_blank"
+              ><i class="fab fa-twitter"></i></a
+            ><a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <p class="copyright">Vel-Vet Vows © 2016</p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>

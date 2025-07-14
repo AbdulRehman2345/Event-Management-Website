@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Management Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #121212;">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">
+          <div class="logo">Vel-Vet Vows</div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/service.html">Services & Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a class="nav-link" href="/Pages/aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/feedback.html">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/booking_form.html">Booking Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Navbar -->
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <h1>EVENT PLANNER</h1>
+      <p>Crafting moments & creating memories</p>
+    </div>
+    <!-- Hero Section -->
+    <!-- Event Section -->
+    <div class="event-section">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-up" data-aos-duration="2000" class="col-12">
+            <h1 class="event-title">Don't Miss The Opportunity</h1>
+            <p class="event-description">
+              Explore the highlights of our spectacular events through our
+              gallery. From breathtaking decor to <br />
+              unforgettable moments, witness the creativity, passion, <br />
+              and perfection we bring to every occasion. Let these glimpses
+              inspire your next extraordinary celebration.
+            </p>
+            <a href="./Pages/gallery.html" class="btn event-button rounded-0"
+              >Gallery</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Event Section -->
+    <!-- About Us -->
+    <div class="container">
+      <div class="card mb-3" style="max-width: 100%; border: 0px">
+        <div class="row g-0">
+          <div class="col-lg-6 col-md-12 col-12 gy-5">
+            <img
+              style="box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.7)"
+              src="./Pictures/pexels-teddy-2263410.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            class="col-lg-6 col-md-12 col-12 gy-4"
+          >
+            <div class="card-body abouttext1">
+              <h2 class="card-title" style="text-align: center; color: black">
+                <b>Vel-Vet Vows</b>
+              </h2>
+              <p class="card-text" style="text-align: center; color: black">
+                At Vel-Vet Vows, we are dedicated to making exceptional events
+                accessible to everyone. Our mission is to help people celebrate
+                their passions, no matter the occasion, location, or scale. We
+                aim to redefine the traditional approach to event planning,
+                bringing together elements of creativity, quality, and seamless
+                execution. From intimate gatherings to grand celebrations, we
+                focus on comfort, convenience, and the unique vision of every
+                client.
+                <a href="./Pages/aboutus.html" class="btn btn-dark aboutbtn1"
+                  >READ MORE</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Us -->
+    <!--  Subscribe  -->
+    <div style="margin-top: 50px" class="subscribe">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4>Subscribe Our Newsletter:</h4>
+          </div>
+          <div class="col-lg-8">
+            <form id="subscribe" action="" method="get">
+              <div class="row">
+                <div class="col-lg-9">
+                  <fieldset style="color: black">
+                    <input
+                      name="email"
+                      type="text"
+                      id="email"
+                      pattern="[^ @]*@[^ @]*"
+                      placeholder="Your Email Address"
+                      required=""
+                    />
+                  </fieldset>
+                </div>
+                <div class="col-lg-3">
+                  <fieldset>
+                    <button
+                      type="submit"
+                      id="form-submit"
+                      class="main-dark-button"
+                    >
+                      Submit
+                    </button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Subscribe  -->
+    <!-- team -->
+    <!-- <section class="team-section">
+      <div class="container-fluid">
+        <div class="row text-center justify-content-center">
+          
+          <h1 style="font-weight: 700; word-spacing: 1.5px" class="mb-4">
+            MEET THE TEAM
+          </h1>
+          <p style="font-weight: 500; font-size: 1.3rem" class="mb-5">
+            Work hard, Have fun, No drama
+          </p>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            class="col-lg-2 col-md-6 col-12 team-member"
+          >
+            <img src="./Pictures/tahir4-1.jpg" alt="Muhammad Tahir" />
+            <h5>Muhammad Tahir</h5>
+            <p>Manager</p>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            class="col-lg-2 col-md-6 col-12 team-member"
+          >
+            <img src="./Pictures/2.jpg" alt="Wajeeha Batool" />
+            <h5>Wajeeha Batool</h5>
+            <p>Marketing Manager</p>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            class="col-lg-2 col-md-6 col-12 team-member"
+          >
+            <img src="./Pictures/3.jpg" alt="Mariam Sohail" />
+            <h5>Mariam Sohail</h5>
+            <p>Event Manager</p>
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            class="col-lg-2 col-md-6 col-12 team-member"
+          >
+            <img src="./Pictures/farwa2-1-1-580x780.jpg" alt="Farwa Allee" />
+            <h5>Farwa Allee</h5>
+            <p>Wedding Planner</p>
+          </div>
+          <div class="col-4"></div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- team -->
+    <!-- Services Section -->
+    <div class="event-section">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-up" data-aos-duration="2000" class="col-12">
+            <h1 class="event-title">Experience Perfection</h1>
+            <p class="event-description">
+              Discover the wide range of services we offer to make your events
+              truly unforgettable. <br />
+              From meticulous planning and stunning decor to gourmet catering
+              and top-tier entertainment, <br />
+              we tailor every detail to create a seamless and memorable
+              experience for you and your guests.
+            </p>
+            <a href="./Pages/service.html" class="btn event-button rounded-0"
+              >Services</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services Section -->
+    <!-- Testimonials -->
+    <div
+      id="testimonialCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="3000"
+    >
+      <h3 class="testimonial-heading">TESTIMONIALS</h3>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div data-aos="fade-up" data-aos-duration="2000" class="testimonial">
+            <p>
+              "As an entrepreneur who has hosted many corporate events, I can
+              confidently say Vel-vet Vows exceeded my expectations during my
+              daughter’s engagement. Tahir Malik’s dedication and the team’s
+              innovative ideas left everyone in awe. From the stunning stage to
+              the perfect music selection, everything was on point."
+            </p>
+            <h5>SYED AZAM ABBAS</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div data-aos="fade-up" data-aos-duration="2000" class="testimonial">
+            <p>
+              "I am a businessman by profession who is actively involved in
+              politics. Tahir Malik at Vel-Vet Vows made my wedding event not
+              only successful but also even memorable. I am glad I have a friend
+              like him and I publicly endorse his company as the best event
+              planning firm in Pakistan. They were superb in organizing the
+              Mehndi ceremony."
+            </p>
+            <h5>ALI RAZA</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div data-aos="fade-up" data-aos-duration="2000" class="testimonial">
+            <p>
+              "I am a doctor by profession and have attended countless events,
+              but my son’s wedding, organized by Vel-vet Vows, stands out as
+              exceptional. Tahir Malik and his team ensured every detail was
+              flawless, from the decor to the catering. I’m grateful for their
+              professionalism and creativity, which turned the event into a
+              dream come true."
+            </p>
+            <h5>SARA KHAN</h5>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+    </div>
+    <!-- Testimonials -->
+    <!-- Footer Start -->
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3 class="text-uppercase mb-4 font-weight-bold">Contact US</h3>
+              <p>
+                <i class="fas fa-home mr-3"></i> &nbsp;
+                Pakistan,Karachi,District 17 ...
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> &nbsp; VelVetVows@gmail.com
+              </p>
+              <p><i class="fas fa-phone mr-3"></i> &nbsp; + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> &nbsp; + 09 876 543 21</p>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Useful Links</h3>
+              <ul>
+                <li><a href="/Pages/aboutus.html">About Us</a></li>
+                <li>
+                  <a href="/Pages/contact.html">Contact Us</a>
+                </li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy And Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Vel-Vet Vows</h3>
+              <p>
+                We believe in creating events that not only meet but exceed your
+                expectations, ensuring every moment is memorable and meaningful.
+                Our passion lies in transforming your vision into reality,
+                delivering experiences that leave a lasting impression on you
+                and your guests.With a focus on innovation and personalized
+                service, we turn your dreams into extraordinary celebrations.
+              </p>
+            </div>
+          </div>
+          <div class="col item social">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook-f"></i></a
+            ><a href="https://twitter.com/" target="_blank"
+              ><i class="fab fa-twitter"></i></a
+            ><a href="https://www.instagram.com/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <p class="copyright">Vel-Vet Vows © 2016</p>
+        </div>
+      </footer>
+    </div>
+    <!-- Footer Start -->
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    >
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
