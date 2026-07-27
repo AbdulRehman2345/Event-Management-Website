@@ -75,7 +75,7 @@ This project was built to demonstrate a complete, production-style business webs
 
 **Abdul Rehman** — Software Engineer
 
-[GitHub](https://github.com/AbdulRehman2345) · [LinkedIn](https://www.linkedin.com/in/abdul-rehman-750208312)
+[LinkedIn](https://www.linkedin.com/in/abdul-rehman-750208312)
 
 ## License
 
