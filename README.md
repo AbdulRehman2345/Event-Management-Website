@@ -53,10 +53,6 @@ Event-Management-Website/
 └── .vscode/                  # Editor configuration
 ```
 
-## Live Demo
-
-**https://event-management-website-mocha.vercel.app**
-
 ## Getting Started
 
 Clone the repository:
