@@ -6,7 +6,7 @@ A responsive multi-page website for **Vel-Vet Vows**, an event planning and mana
 
 ## Preview
 
-![Vel-Vet Vows Homepage](Screenshot 2026-07-27 224621.png)
+![Vel-Vet Vows Homepage][Screenshot 2026-07-27 224621.png]
 
 ## Features
 
