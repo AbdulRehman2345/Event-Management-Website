@@ -6,7 +6,7 @@ A responsive multi-page website for **Vel-Vet Vows**, an event planning and mana
 
 ## Preview
 
-![Vel-Vet Vows Homepage][Screenshot 2026-07-27 224621.png]
+![Vel-Vet Vows Homepage](https://github.com/AbdulRehman2345/Event-Management-Website/blob/main/Screenshot%202026-07-27%20224621.png?raw=true)
 
 ## Features
 
